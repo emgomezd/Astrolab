@@ -1,4 +1,5 @@
 #check 1
+#check "checking"
 def square : Nat → Nat :=
 fun x => x * x
 #eval square 5
