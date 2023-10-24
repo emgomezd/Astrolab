@@ -19,3 +19,11 @@ def valToString : ( x : Bool ) → StringOrInt x → String :=
 fun x val => match x with 
   | true  => ( val : Nat ).repr
   | false => ( val : String )
+#eval (6 + 3 * 12)  
+#eval (6.0 + 3 * 12)  
+def intergerval : Nat := (6 * 6)
+def doubleval : float := 0.1
+#check 0.1
+#check integerval
+#check doubleval
+
